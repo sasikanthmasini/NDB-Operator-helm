@@ -51,6 +51,6 @@ entries:
     name: ndb-operator
     type: application
     urls:
-    - ndb-operator-0.5.3.tgz
+    - https://raw.githubusercontent.com/sasikanthmasini/NDB-Operator-helm/main/ndb-operator-0.5.3.tgz
     version: 0.5.3
 generated: "2026-01-13T15:22:36.153914+05:30"
