@@ -1,0 +1,7 @@
+# Artifact Hub repository metadata
+# This file helps Artifact Hub identify and process your repository
+
+repositoryID: ""
+# Leave repositoryID empty initially, Artifact Hub will provide it after adding the repository
+
+

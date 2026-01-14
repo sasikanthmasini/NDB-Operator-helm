@@ -29,7 +29,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v0.5.1
-    created: "2026-01-13T15:22:36.156051+05:30"
+    created: "2026-01-14T16:05:12.235663+05:30"
     description: A Helm chart for Nutanix Database Kubernetes Operator
     digest: b1675e2b8ae12e0b0270afbd5dceba3b9f5f4be93d7c95d0e73b79e461df8267
     icon: https://www.nutanix.com/content/dam/nutanix/global/icons/products/svg/Nutanix-Era-40.svg
@@ -53,4 +53,33 @@ entries:
     urls:
     - https://sasikanthmasini.github.io/NDB-Operator-helm/ndb-operator-0.5.3.tgz
     version: 0.5.3
-generated: "2026-01-13T15:22:36.153914+05:30"
+  ndb-operator-test-1:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: fixed
+          description: "Upgraded internal dependencies."
+        - kind: security
+          description: "Upgraded kube-rbac-proxy from v0.15.0 to v0.16.0."
+      artifacthub.io/containsSecurityUpdates: "true"
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/maintainers: |
+        - name: sasikanth.masini
+          email: sasikanth.masini@nutanix.com
+      artifacthub.io/operator: "true"
+      artifacthub.io/operatorCapabilities: Basic Install
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: v0.5.1
+    created: "2026-01-14T16:05:12.236723+05:30"
+    description: A Helm chart for Nutanix Database Kubernetes Operator
+    digest: 46fac859e0608bf28c7881ff2d32816d917bda5e5c3f90f5dc653c4bef3a030c
+    icon: https://www.nutanix.com/content/dam/nutanix/global/icons/products/svg/Nutanix-Era-40.svg
+    maintainers:
+    - email: sasikanth.masini@nutanix.com
+      name: sasikanth.masini
+    name: ndb-operator-test-1
+    type: application
+    urls:
+    - https://sasikanthmasini.github.io/NDB-Operator-helm/ndb-operator-test-1-0.5.1-1.22.4.tgz
+    version: 0.5.1-1.22.4
+generated: "2026-01-14T16:05:12.234701+05:30"
