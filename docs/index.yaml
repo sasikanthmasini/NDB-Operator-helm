@@ -29,7 +29,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v0.5.1
-    created: "2026-02-03T11:30:18.371441+05:30"
+    created: "2026-02-03T11:38:12.179684+05:30"
     description: A Helm chart for Nutanix Database Kubernetes Operator
     digest: b1675e2b8ae12e0b0270afbd5dceba3b9f5f4be93d7c95d0e73b79e461df8267
     icon: https://www.nutanix.com/content/dam/nutanix/global/icons/products/svg/Nutanix-Era-40.svg
@@ -61,6 +61,11 @@ entries:
         - kind: security
           description: "Upgraded kube-rbac-proxy from v0.15.0 to v0.16.0."
       artifacthub.io/containsSecurityUpdates: "true"
+      artifacthub.io/images: |-
+        - name: controller
+          image: ghcr.io/nutanix-cloud-native/ndb-operator/controller:v0.5.2
+        - name: kube-rbac-proxy
+          image: quay.io/brancz/kube-rbac-proxy:v0.18.0
       artifacthub.io/license: Apache-2.0
       artifacthub.io/maintainers: |
         - name: sasikanth.masini
@@ -70,9 +75,9 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v0.5.2
-    created: "2026-02-03T11:30:18.386583+05:30"
+    created: "2026-02-03T11:38:12.203768+05:30"
     description: A Helm chart for Nutanix Database Kubernetes Operator
-    digest: 40c7e298ee517a3b99c5d19506c373a53b1676c12f28d0ba59e1352360845505
+    digest: e41c089b47e8f6bd4ae689614a24845d51a9a453a2cc6f11f84f2aa3396a5bb2
     icon: https://www.nutanix.com/content/dam/nutanix/global/icons/products/svg/Nutanix-Era-40.svg
     maintainers:
     - email: sasikanth.masini@nutanix.com
@@ -98,7 +103,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v0.5.2
-    created: "2026-02-03T11:30:18.38118+05:30"
+    created: "2026-02-03T11:38:12.189929+05:30"
     description: A Helm chart for Nutanix Database Kubernetes Operator
     digest: 22fd5f371b72f3f3c547289450926c1e266f4a85ba18bb18734f649388ac8f00
     icon: https://www.nutanix.com/content/dam/nutanix/global/icons/products/svg/Nutanix-Era-40.svg
@@ -126,7 +131,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v0.5.2
-    created: "2026-02-03T11:30:18.37769+05:30"
+    created: "2026-02-03T11:38:12.18631+05:30"
     description: A Helm chart for Nutanix Database Kubernetes Operator
     digest: 9de9a18aa2f2d2d0b3fb605261ee53942c92919b00cee93063d61b3166dcfc2f
     icon: https://www.nutanix.com/content/dam/nutanix/global/icons/products/svg/Nutanix-Era-40.svg
@@ -154,7 +159,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v0.5.2
-    created: "2026-02-03T11:30:18.375313+05:30"
+    created: "2026-02-03T11:38:12.184314+05:30"
     description: A Helm chart for Nutanix Database Kubernetes Operator
     digest: 88b68260441fd5a602a3884de29458748b48a7743115bd36f7213022a4af789c
     icon: https://www.nutanix.com/content/dam/nutanix/global/icons/products/svg/Nutanix-Era-40.svg
@@ -182,7 +187,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v0.5.2
-    created: "2026-02-03T11:30:18.373765+05:30"
+    created: "2026-02-03T11:38:12.182307+05:30"
     description: A Helm chart for Nutanix Database Kubernetes Operator
     digest: 0acaae9771589624b967c9ffdf8657ca117439bd3bc6a850d797847a72e25fce
     icon: https://www.nutanix.com/content/dam/nutanix/global/icons/products/svg/Nutanix-Era-40.svg
@@ -210,7 +215,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v0.5.1
-    created: "2026-02-03T11:30:18.372351+05:30"
+    created: "2026-02-03T11:38:12.180647+05:30"
     description: A Helm chart for Nutanix Database Kubernetes Operator
     digest: 46fac859e0608bf28c7881ff2d32816d917bda5e5c3f90f5dc653c4bef3a030c
     icon: https://www.nutanix.com/content/dam/nutanix/global/icons/products/svg/Nutanix-Era-40.svg
@@ -222,4 +227,4 @@ entries:
     urls:
     - https://sasikanthmasini.github.io/NDB-Operator-helm/ndb-operator-test-1-0.5.1-1.22.4.tgz
     version: 0.5.1-1.22.4
-generated: "2026-02-03T11:30:18.370953+05:30"
+generated: "2026-02-03T11:38:12.179218+05:30"
