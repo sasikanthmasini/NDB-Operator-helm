@@ -2,7 +2,7 @@ apiVersion: v2
 name: ndb-operator-test-1
 description: A Helm chart for Nutanix Database Kubernetes Operator
 type: application
-version: 0.5.8
+version: 0.5.9
 appVersion: v0.5.2
 maintainers:
   - name: sasikanth.masini
@@ -13,7 +13,7 @@ annotations:
     - kind: fixed
       description: "Upgraded internal dependencies."
     - kind: security
-      description: "Upgraded kube-rbac-proxy from v0.15.0 to v0.16.0."
+      description: "Upgraded kube-rbac-proxy from v0.18.0 to v0.20.2."
   artifacthub.io/containsSecurityUpdates: "true"
   artifacthub.io/license: Apache-2.0
   artifacthub.io/maintainers: |
@@ -26,4 +26,4 @@ annotations:
     - name: controller
       image: ghcr.io/nutanix-cloud-native/ndb-operator/controller:v0.5.2
     - name: kube-rbac-proxy
-      image: quay.io/brancz/kube-rbac-proxy:v0.18.0
+      image: quay.io/brancz/kube-rbac-proxy:v0.20.2
